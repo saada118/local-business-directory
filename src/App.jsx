@@ -12,7 +12,7 @@ import SignUpPage from './pages/SignUpPage';
 import AdvertisePage from './pages/AdvertisePage';
 import ProfilePage from './pages/ProfilePage';
 import './components/PromotionBanner.css';
-import OTPLoginPage from './pages/OTPLoginPage';
+
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -44,7 +44,7 @@ function App() {
         <Route path="/signup" element={<SignUpPage />} />
         <Route path="/advertise" element={<AdvertisePage />} />
         <Route path="/profile" element={<ProfilePage />} />
-        <Route path="/otp-login" element={<OTPLoginPage />} />
+      
         <Route path="/business/:id" element={<BusinessDetailsPage />} />
         <Route
   path="/"
